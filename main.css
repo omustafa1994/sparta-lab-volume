@@ -2,6 +2,11 @@ body {
   background-color: rgb(233, 227, 227);
 }
 
+.navbar-page {
+  background-color: rgb(86, 148, 240);
+  color: white;
+}
+
 .test-div {
   height: 550px;
   width: 100%;
@@ -72,13 +77,14 @@ body {
 }
 
 .row-five {
-  background-color: rgb(3, 15, 54);
+  background-color: rgb(24, 26, 34);
+  color: white;
 }
 
 .row-five-placeholder-top {
   width: 45%;
   padding-bottom: 10px;
-  border-bottom: 2px solid purple !important;
+  border-bottom: 2px solid rgb(86, 148, 240) !important;
   background-color: transparent;
   border-color: transparent;
 }
@@ -86,7 +92,7 @@ body {
 .row-five-placeholder {
   width: 91%;
   padding-bottom: 10px;
-  border-bottom: 2px solid purple !important;
+  border-bottom: 2px solid rgb(86, 148, 240) !important;
   background-color: transparent;
   border-color: transparent;
 }
@@ -106,11 +112,16 @@ body {
 }.row-five-form{
   padding-bottom: 40px;
 }
+
+.row-six {
+  background-color: white;
+}
+
 .row-six-box{
   height: 170px;
   padding-left: 70px;
-  
 }
+
 .row-six-text{
   padding-top: 30px;
 }
@@ -120,9 +131,13 @@ body {
   font-size: 15px;
   padding: 20px;
 }
+
 .row-two-textbox{
   padding-top: 30px;
   padding-left: 50px;
 }
 
+.row-seven {
+  background-color: rgb(86, 148, 240);
+}
 
