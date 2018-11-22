@@ -1,0 +1,219 @@
+</DOCTYPE html>
+
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Bootstrap Components</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="Bootstrap/bootstrap-3.3.7-dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+    crossorigin="anonymous">
+
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="Bootstrap/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
+    crossorigin="anonymous">
+
+  <!-- jquery -->
+  <script src="Bootstrap/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="Bootstrap/bootstrap-3.3.7-dist/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+    crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+  <script src="main.js"></script>
+
+</head>
+
+<body>
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+          aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <img class="img-responsive" src="http://fillmurray.com/100/100" alt="BillMurray1">
+      </div>
+
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
+          <li><a href="#">Link</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown
+              <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Action</a></li>
+              <li><a href="#">Another action</a></li>
+              <li><a href="#">Something else here</a></li>
+              <li role="separator" class="divider"></li>
+              <li><a href="#">Separated link</a></li>
+              <li role="separator" class="divider"></li>
+              <li><a href="#">One more separated link</a></li>
+            </ul>
+          </li>
+        </ul>
+        <form class="navbar-form navbar-left">
+          <div class="form-group">
+            <input type="text" class="form-control" placeholder="Search">
+          </div>
+          <button type="submit" class="btn btn-default">Submit</button>
+        </form>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#">Link</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown
+              <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Action</a></li>
+              <li><a href="#">Another action</a></li>
+              <li><a href="#">Something else here</a></li>
+              <li role="separator" class="divider"></li>
+              <li><a href="#">Separated link</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Row One -->
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-12 top-image">
+        <div class="test-div"></div>
+        <!-- <img class="img-responsive" src="http://fillmurray.com/700/100" alt="BillMurray1"> -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Row Two -->
+  <div class="container-fluid">
+    <div class="row row-two">
+      <div class="col-lg-1 check-borders">hello</div>
+      <div class="col-lg-6 check-borders">hello</div>
+      <div class="col-lg-1 check-borders">hello</div>
+      <div class="col-lg-3 check-borders">
+        <div class="row right-row">
+          <div class="col-lg-1 row-two-border"></div>
+          <div class="col-lg-4">
+            <div class="image-replace"></div>
+          </div>
+          <div class="col-lg-1 row-two-border"></div>
+          <div class="col-lg-4">
+            <div class="image-replace"></div>
+          </div>
+          <div class="col-lg-2 row-two-bottom"></div>
+        </div>
+      </div>
+      <div class="col-lg-1 check-borders">hello</div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-lg-12 row-two-borderbottom check-borders"></div>
+  </div>
+
+  <!-- Row Three -->
+  <div class="container row-three">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+      </ol>
+
+      <div class="carousel-inner row-three-inside">
+
+        <div class="item active">
+          <div class="carousel-one">
+            <img src="assets/currys-pc-world.jpg" alt="Los Angeles">
+            <img src="assets/currys-pc-world.jpg" alt="Los Angeles">
+            <img src="assets/currys-pc-world.jpg" alt="Los Angeles">
+            <img src="assets/currys-pc-world.jpg" alt="Los Angeles">
+            <div class="carousel-caption">
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="carousel-one">
+            <img src="assets/currys-pc-world.jpg" alt="Los Angeles">
+            <img src="assets/currys-pc-world.jpg" alt="Los Angeles">
+            <img src="assets/currys-pc-world.jpg" alt="Los Angeles">
+            <img src="assets/currys-pc-world.jpg" alt="Los Angeles">
+            <div class="carousel-caption">
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- controls -->
+      <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div>
+
+  <!-- Row Four -->
+  <div class="container-fluid">
+    <div class="row row-four">
+      <div class="col-lg-4 check-borders">hello</div>
+      <div class="col-lg-8 check-borders row-four-grid">
+        <img class="row-four-images" src="https://fillmurray.com/215/215" alt="1">
+        <img class="row-four-images" src="https://fillmurray.com/215/215" alt="1">
+        <img class="row-four-images" src="https://fillmurray.com/215/215" alt="1">
+        <img class="row-four-images" src="https://fillmurray.com/215/215" alt="1">
+        <img class="row-four-images" src="https://fillmurray.com/215/215" alt="1">
+        <img class="row-four-images" src="https://fillmurray.com/215/215" alt="1">
+        <img class="row-four-images" src="https://fillmurray.com/215/215" alt="1">
+        <img class="row-four-images" src="https://fillmurray.com/215/215" alt="1">
+      </div>
+    </div>
+  </div>
+
+  <!-- Row Five -->
+  <div class="container-fluid">
+    <div class="row row-five text-center">
+      <div class="col-lg-6 check-borders col-lg-offset-3">
+        <div class="row-five-form">
+          <h1>Request a callback</h1>
+          <p class="row-five-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex, nobis rerum assumenda
+            exercitationem saepe est iusto ab quas maxime. Eius, repudiandae dignissimos aspernatur iure ab eos
+            molestias dolorum blanditiis. </p>
+          <!-- <form>
+            <input type="text" name="Name" id="1">
+            <input type="text" name="Name" id="1">
+            <br><br>
+            <input type="text" name="Name" id="1">
+          </form> -->
+          <div class="boxes">
+            <input class="row-five-placeholder-top" placeholder="Name">
+            <input class="row-five-placeholder-top" placeholder="Contact Number"> <br><br>
+            <input class="row-five-placeholder" placeholder="Email"> <br><br>
+            <input class="row-five-placeholder" placeholder="How can we help?"> <br><br>
+          </div>
+          <button type="submit" class="button row-five-button">SEND MESSAGE</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+</body>
+
+</html>
