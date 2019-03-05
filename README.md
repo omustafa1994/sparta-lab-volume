@@ -1,7 +1,7 @@
 # Volume 
 
 ### Description
-This task involved re-creating the Volume website using my full understanding of Bootstrap, along with HTML and CSS. This task involved pair programming, therefore two programmers had to work together at one workstation.
+This task involved re-creating the Volume website using my full understanding of Bootstrap, alongside HTML and CSS. This task involved pair programming, therefore two programmers had to work together at one workstation.
 
 ### Languages used
 * HTML
