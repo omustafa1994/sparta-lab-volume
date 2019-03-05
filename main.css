@@ -1,0 +1,143 @@
+body {
+  background-color: rgb(233, 227, 227);
+}
+
+.navbar-page {
+  background-color: rgb(86, 148, 240);
+  color: white;
+}
+
+.test-div {
+  height: 550px;
+  width: 100%;
+  background-color: blueviolet; 
+}
+/* 
+.check-borders {
+  border: 1px solid black;
+}*/
+
+.row-two-box {
+  background-color: white;
+}
+
+.row-two {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.right-row {
+  display: flex;
+  flex-direction: column;
+}
+
+.row-two-border {
+  height: 35px;
+}
+
+.image-replace {
+  height: 150px;
+  width: 330px;
+  background-color: blueviolet;
+}
+
+.row-two-bottom {
+  height: 70px;
+}
+
+.row-two-borderbottom {
+  height: 50px;
+}
+
+.carousel-one {
+  display: flex;
+  justify-content: space-between;
+}
+
+.row-three {
+  border: 3px solid #d4d4d4;
+  margin: 100px;
+  margin-left: 150px;
+  padding: 70px; 
+  margin-top: 40px;
+  margin-bottom: 40px;
+  background-color: white;
+}
+
+.row-four-grid {
+  width: 900px;
+  height: 440px;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 50% 50%;
+}
+
+.row-four-images {
+  border: 2px solid white; 
+}
+
+.row-five {
+  background-color: rgb(24, 26, 34);
+  color: white;
+}
+
+.row-five-placeholder-top {
+  width: 45%;
+  padding-bottom: 10px;
+  border-bottom: 2px solid rgb(86, 148, 240) !important;
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.row-five-placeholder {
+  width: 91%;
+  padding-bottom: 10px;
+  border-bottom: 2px solid rgb(86, 148, 240) !important;
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.row-five-button {
+  background-color: transparent;
+  border: gray solid 2px;
+  padding: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.row-five-text {
+  text-align: left;
+  padding: 35px;
+
+}.row-five-form{
+  padding-bottom: 40px;
+}
+
+.row-six {
+  background-color: white;
+}
+
+.row-six-box{
+  height: 170px;
+  padding-left: 70px;
+}
+
+.row-six-text{
+  padding-top: 30px;
+}
+
+.row-six-last-text{
+  font-style: bold;
+  font-size: 15px;
+  padding: 20px;
+}
+
+.row-two-textbox{
+  padding-top: 30px;
+  padding-left: 50px;
+}
+
+.row-seven {
+  background-color: rgb(86, 148, 240);
+}
+
